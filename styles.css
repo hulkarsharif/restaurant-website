@@ -59,6 +59,7 @@
     justify-content: center;
     margin-right: 25px;
 }
+
 /*Hero Section */
 
 .hero-section__container {
@@ -117,6 +118,7 @@
 .hero-section__cta button:first-child {
     margin-right: 12px;
 }
+
 /*welcome Section */
 
 #welcome-section {
@@ -161,7 +163,6 @@
     font-size: 20px;
     line-height: 40px;
 }
-/* Menu Section */
 
 .menu-section__container {
     max-width: 1440px;
@@ -193,6 +194,7 @@
     margin-bottom: 15px;
     margin-right: auto;
     margin-left: auto;
+
     width: max-content;
 }
 
@@ -208,7 +210,12 @@
 
     padding: 35px 37px;
     background-color: #d0ccc733;
+
     border-radius: 70px;
+}
+
+=======
+    border-radius: 60px;
 }
 
 .card__img {
@@ -220,7 +227,11 @@
 .card__title {
     font-size: 30px;
     line-height: 60px;
+
     font-weight: 600;
+
+    font-weight: 600px;
+
     text-align: center;
 
     margin-bottom: 5px;
