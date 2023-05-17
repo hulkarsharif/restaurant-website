@@ -120,7 +120,7 @@
 /*welcome Section */
 
 #welcome-section {
-    background-color: #3fc66e1a;
+    background-color: rgba (63, 198, 110, 0.102);
 }
 
 .welcome-section__container {
@@ -150,7 +150,7 @@
 }
 
 .welcome-section__right h2 span {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 
 .welcome-section__right p {
@@ -202,7 +202,7 @@
     width: calc((100% - 80px) / 3);
 
     padding: 35px 37px;
-    background-color: #d0ccc733;
+    background-color: rgba (208, 204, 199, 0.2);
 
     border-radius: 70px;
 }
@@ -243,7 +243,7 @@
 /* Reservation Section */
 
 #reservation-section {
-    background-color: #fff4e766;
+    background-color: rgba(255, 244, 231, 0.3);
 }
 
 .reservation-section__container {
@@ -336,11 +336,11 @@
 }
 
 .chefs-section__chef:nth-child(2) img {
-    background-color: #ff8a0033;
+    background-color: rgba(255, 138, 0, 0.2);
 }
 
 .chefs-section__chef:last-child img {
-    background-color: #9d654233;
+    background-color: rgba(157, 101, 66, 0.2);
 }
 
 .chefs-section__chef h4 {
