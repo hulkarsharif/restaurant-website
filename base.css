@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
     font-family: "Poppins", sans-serif;
 }
 
@@ -17,89 +16,64 @@ a {
     text-decoration: none;
 }
 
-.btn-small-green {
+.btn {
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sm {
     height: 50px;
-    color: #ffffff;
-    background-color: #3fa72f;
     border-radius: 133px;
-    border: none;
     padding-left: 36px;
     padding-right: 36px;
-    cursor: pointer;
 }
 
-.btn-large-green {
-    height: 74px;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #3fa72f;
-    border: none;
-    border-radius: 162px;
-    padding-right: 55px;
-    padding-left: 55px;
-    cursor: pointer;
-}
-
-.btn-large-orange {
-    height: 74px;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #ff8a00;
-    border: none;
-    border-radius: 162px;
-    padding-right: 55px;
-    padding-left: 55px;
-    cursor: pointer;
-}
-
-.btn-md-orange {
-    height: 74px;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #ff8a00;
-    border: none;
+.btn-md {
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
     border-radius: 162px;
     padding-right: 36px;
     padding-left: 36px;
-    cursor: pointer;
-}
-.btn-large-black {
-    height: 74px;
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #311f09;
-    border: none;
-    border-radius: 162px;
-    padding-right: 55px;
-    padding-left: 55px;
-    cursor: pointer;
-}
-.btn-large-gray {
-    height: 74px;
-    color: #311f09;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #ecf0f1;
-    border: none;
-    border-radius: 162px;
-    padding-right: 55px;
-    padding-left: 55px;
-    cursor: pointer;
 }
 
-.btn-large-white {
+.btn-lg {
     height: 74px;
-    color: #311f09;
     font-size: 20px;
     font-weight: 600;
-    background-color: #ffffff;
-    border: none;
     border-radius: 162px;
     padding-right: 55px;
     padding-left: 55px;
-    cursor: pointer;
+}
+
+.btn-green {
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 167, 47);
+}
+
+.btn-orange {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 138, 0);
+}
+
+.btn-black {
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 31, 9);
+}
+
+.btn-gray {
+    color: rgb(49, 31, 9);
+    background-color: rgb(236, 240, 241);
+}
+
+.btn-white {
+    color: rgb(49, 31, 9);
+    background-color: rgb(255, 255, 255);
+}
+
+/* Container */
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
 }
