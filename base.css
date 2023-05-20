@@ -47,28 +47,28 @@ a {
 }
 
 .btn-green {
-    color: rgb(255, 255, 255);
-    background-color: rgb(63, 167, 47);
+    color: #ffffff;
+    background-color: #3fa72f;
 }
 
 .btn-orange {
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 138, 0);
+    color: #ffffff;
+    background-color: #ff8a00;
 }
 
 .btn-black {
-    color: rgb(255, 255, 255);
-    background-color: rgb(49, 31, 9);
+    color: #ffffff;
+    background-color: #311f09;
 }
 
 .btn-gray {
-    color: rgb(49, 31, 9);
-    background-color: rgb(236, 240, 241);
+    color: #311f09;
+    background-color: #ecf0f1;
 }
 
 .btn-white {
-    color: rgb(49, 31, 9);
-    background-color: rgb(255, 255, 255);
+    color: #311f09;
+    background-color: #ffffff;
 }
 
 /* Container */
