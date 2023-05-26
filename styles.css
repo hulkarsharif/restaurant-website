@@ -8,6 +8,14 @@
     src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
+:root {
+    --orange-color: #ff8a00;
+    --black-color: #311f09;
+    --brown-color: #59442b;
+    --gray-color: #fff4e54d;
+    --green-color: #3fa72f;
+    --white-color: #fff;
+}
 
 .header {
     height: 80px;
@@ -37,12 +45,12 @@
 }
 
 .navigatiion__links li a {
-    color: rgb(49, 31, 9);
+    color: var(--black-color);
     font-size: 14px;
 }
 
 #navigation__link {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 /* .navigation__link {
@@ -63,7 +71,7 @@
 .navigation__actions figure {
     height: 50px;
     width: 50px;
-    background-color: rgb(236, 240, 241);
+    background-color: hsl(192, 15%, 94%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -103,16 +111,15 @@
     display: block;
     width: max-content;
     margin-bottom: 24px;
-    background-color: #ff8a0033;
-    color: rgb(255, 138, 0);
-    font-size: 18px;
+    background-color: var(--brown-color);
+    color: var(--orange-color);
     border-radius: 123px;
     padding: 5px 20px;
 }
 
 .hero-section__heading {
     margin-bottom: 24px;
-    color: rgb(49, 31, 9);
+    color: var(--black-color);
     font-size: 80px;
     font-weight: 600px;
     line-height: 88px;
@@ -120,7 +127,7 @@
 
 .hero-section__description {
     margin-bottom: 50px;
-    color: rgb(92, 69, 41);
+    color: var(--brown-color);
     font-size: 20px;
 }
 
@@ -131,7 +138,7 @@
 /*welcome Section */
 
 #welcome-section {
-    background-color: rgba (63, 198, 110, 0.102);
+    background-color: rgba(63, 198, 110, 0.102);
 }
 
 .welcome-section__container {
@@ -156,16 +163,16 @@
 .welcome-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--black-color);
     margin-bottom: 50px;
 }
 
 .welcome-section__right h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 .welcome-section__right p {
-    color: rgb(92, 69, 41);
+    color: var(--brown-color);
     font-size: 20px;
     line-height: 40px;
 }
@@ -178,7 +185,7 @@
     text-align: center;
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--black-color);
     margin-bottom: 50px;
 }
 
@@ -205,7 +212,7 @@
 .menu-section__price {
     font-size: 25px;
     line-height: 38px;
-    color: rgb(49, 31, 9);
+    color: var(--black-color);
     font-weight: 600;
 }
 
@@ -213,7 +220,7 @@
     width: calc((100% - 80px) / 3);
 
     padding: 35px 37px;
-    background-color: rgba (208, 204, 199, 0.2);
+    background-color: rgba(208, 204, 199, 0.2);
 
     border-radius: 70px;
 }
@@ -240,7 +247,7 @@
 .card__text {
     font-size: 14px;
     line-height: 28px;
-    color: rgb(89, 68, 43);
+    color: var(--brown-color);
     text-align: center;
     margin-bottom: 30px;
 }
@@ -254,7 +261,7 @@
 /* Reservation Section */
 
 #reservation-section {
-    background-color: rgba(255, 244, 231, 0.3);
+    background-color: #fff4e54d;
 }
 
 .reservation-section__container {
@@ -289,11 +296,11 @@
 }
 
 .reservation-section__right span {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 .reservation-section__right p {
-    color: rgb(92, 69, 41);
+    color: var(--brown-color);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -312,12 +319,12 @@
 .chefs-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: var(--black-color);
     margin-bottom: 50px;
 }
 
 .chefs-section__container h2 span {
-    color: rgb(255, 138, 0);
+    color: var(--orange-color);
 }
 
 .chefs-section__chefs {
@@ -385,7 +392,7 @@
 .testimonials-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: rgb(49, 31, 9);
+    color: #311f09;
     margin-bottom: 100px;
     text-align: center;
 }

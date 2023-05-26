@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --orange-color: #ff8a00;
+    --black-color: #311f09;
+    --brown-color: #59442b;
+    --gray-color: #fff4e54d;
+    --green-color: #3fa72f;
+    --white-color: #fff;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -47,28 +56,29 @@ a {
 }
 
 .btn-green {
-    color: #ffffff;
-    background-color: #3fa72f;
+    color: var(--white-color);
+    background-color: var(--green-color);
+    /* background-color: #3fa72f; */
 }
 
 .btn-orange {
-    color: #ffffff;
-    background-color: #ff8a00;
+    color: var(--white-color);
+    background-color: var(--orange-color);
 }
 
 .btn-black {
-    color: #ffffff;
-    background-color: #311f09;
+    color: var(--white-color);
+    background-color: var(--brown-color);
 }
 
 .btn-gray {
-    color: #311f09;
-    background-color: #ecf0f1;
+    color: var(--back-color);
+    background-color: var(--brown-color);
 }
 
 .btn-white {
-    color: #311f09;
-    background-color: #ffffff;
+    color: var(--black-color);
+    background-color: var(--white-color);
 }
 
 /* Container */
