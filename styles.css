@@ -8,14 +8,14 @@
     src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
-:root {
+/* :root {
     --orange-color: #ff8a00;
     --black-color: #311f09;
     --brown-color: #59442b;
-    --gray-color: #fff4e54d;
+    --gray-color: #e5f0f1;
     --green-color: #3fa72f;
-    --white-color: #fff;
-}
+    --white-color: #ffffff;
+} */
 
 .header {
     height: 80px;
