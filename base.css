@@ -19,9 +19,9 @@
     --orange-color: #ff8a00;
     --black-color: #311f09;
     --brown-color: #59442b;
-    --gray-color: #fff4e54d;
+    --gray-color: #e5f0f1;
     --green-color: #3fa72f;
-    --white-color: #fff;
+    --white-color: #ffffff;
 }
 
 body {
@@ -78,13 +78,13 @@ a {
 }
 
 .btn-black {
-    color: var(--white-color);
-    background-color: var(--brown-color);
+    color: var(--black-color);
+    background-color: var(--gray-color);
 }
 
 .btn-gray {
     color: var(--back-color);
-    background-color: var(--brown-color);
+    background-color: var(--gray-color);
 }
 
 .btn-white {
