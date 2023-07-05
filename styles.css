@@ -8,14 +8,14 @@
     src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
-/* :root {
+:root {
     --orange-color: #ff8a00;
     --black-color: #311f09;
     --brown-color: #59442b;
     --gray-color: #e5f0f1;
     --green-color: #3fa72f;
     --white-color: #ffffff;
-} */
+}
 
 .header {
     height: 80px;
@@ -53,14 +53,14 @@
     color: var(--orange-color);
 }
 
-/* .navigation__link {
+.navigation__link {
     color: #ff8a00;
-} */
+}
 
 .navigation__actions {
     display: flex;
     align-items: center;
-    /*gap: 25px; */
+    gap: 25px;
 }
 
 .navigation__actions img {
@@ -82,10 +82,6 @@
 /*Hero Section */
 
 .hero-section__container {
-    /*padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px; */
     padding: 80px;
 
     display: flex;
@@ -99,7 +95,7 @@
 
 .hero-section__right {
     width: 50%;
-    height: max-content;
+    /* /* height: max-content;  */
 }
 
 .hero-section__img {
@@ -159,12 +155,16 @@
 .welcome-section__right {
     width: 45%;
 }
-
-.welcome-section__right h2 {
+h2 {
     font-size: 60px;
     line-height: 70px;
-    color: var(--black-color);
     margin-bottom: 50px;
+}
+.welcome-section__right h2 {
+    /*font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 50px;*/
+    color: var(--black-color);
 }
 
 .welcome-section__right h2 span {
@@ -183,10 +183,10 @@
 
 .menu-section__container h2 {
     text-align: center;
-    font-size: 60px;
+    /* font-size: 60px;
     line-height: 70px;
+    margin-bottom: 50px;*/
     color: var(--black-color);
-    margin-bottom: 50px;
 }
 
 .menu-section__filters {
@@ -234,7 +234,6 @@
 .card__title {
     font-size: 30px;
     line-height: 60px;
-
     font-weight: 600;
 
     font-weight: 600px;
@@ -257,9 +256,7 @@
     align-items: center;
     justify-content: space-between;
 }
-/* Reservation Section */
-
-#reservation-section {
+Reservation Section */ #reservation-section {
     background-color: #fff4e766;
 }
 
@@ -288,10 +285,10 @@
 }
 
 .reservation-section__right h2 {
-    font-size: 60px;
-    line-height: 72px;
+    /* font-size: 60px;
+    line-height: 72px; */
     color: #311f09;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .reservation-section__right span {
@@ -316,10 +313,7 @@
 }
 
 .chefs-section__container h2 {
-    font-size: 60px;
-    line-height: 70px;
     color: #311f09;
-    margin-bottom: 50px;
 }
 
 .chefs-section__container h2 span {
@@ -360,11 +354,13 @@
     background-color: #9d654233;
 }
 
+h4 {
+    font-weight: 600;
+    font-size: 25px;
+}
 .chefs-section__chef h4 {
     margin-bottom: 15px;
     color: #311f09;
-    font-weight: 600;
-    font-size: 25px;
     line-height: 50px;
 }
 
@@ -389,8 +385,8 @@
 }
 
 .testimonials-section__container h2 {
-    font-size: 60px;
-    line-height: 70px;
+    /* font-size: 60px;
+    line-height: 70px; */
     color: #311f09;
     margin-bottom: 100px;
     text-align: center;
@@ -416,13 +412,15 @@
 
 .testimonials-section__testimonial h4 {
     color: #311f09;
-    font-weight: 600;
-    font-size: 25px;
+    /* font-weight: 600;
+    font-size: 25px; */
     line-height: 50px;
 }
-
-.testimonials-section__testimonial h5 {
+.testimonials-section__testimonial h5.p {
     color: #5c4529;
+}
+.testimonials-section__testimonial h5 {
+    /* color: #5c4529; */
     font-size: 18px;
     line-height: 36px;
     font-weight: 600;
@@ -458,8 +456,8 @@
 
 .hours-section__hours h2 {
     color: #ffffff;
-    font-size: 60px;
-    line-height: 70px;
+    /* font-size: 60px;
+    line-height: 70px; */
     margin-bottom: 15px;
 }
 
@@ -528,10 +526,10 @@
     margin-top: 40px;
 }
 
-.footer__social-icons img:first-child {
+/* .footer__social-icons img:first-child {
     margin-right: 30px;
-}
-
+} */
+.footer__social-icons img:first-child,
 .footer__social-icons img:nth-child(2) {
     margin-right: 30px;
 }
