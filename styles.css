@@ -161,9 +161,6 @@ h2 {
     margin-bottom: 50px;
 }
 .welcome-section__right h2 {
-    /*font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 50px;*/
     color: var(--black-color);
 }
 
@@ -285,10 +282,7 @@ Reservation Section */ #reservation-section {
 }
 
 .reservation-section__right h2 {
-    /* font-size: 60px;
-    line-height: 72px; */
     color: #311f09;
-    /* margin-bottom: 50px; */
 }
 
 .reservation-section__right span {
